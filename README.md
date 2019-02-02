@@ -1,7 +1,7 @@
-# Asymmetrik Programming Challenge - Mobile Device Keyboard
+## Asymmetrik Programming Challenge - Mobile Device Keyboard
 
-### Build
+#### Build
 `mvn clean package`
 
-### Run
+#### Run
 `java -jar target/autocomplete-1.0-SNAPSHOT-jar-with-dependencies.jar`
