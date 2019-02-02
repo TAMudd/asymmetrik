@@ -48,6 +48,11 @@ public class AutocompleteProvider {
             //Trim leading and trailing punctuation/special characters
             String formatted = term.replaceAll("[^a-z0-9]+$", "")
                     .replaceAll("^[^a-z0-9]+", "");
+            
+            if (formatted.isEmpty()) {
+                continue;
+            }
+            
             Candidate candidate = candidateMap.get(formatted);
 
             if (candidate == null) {
