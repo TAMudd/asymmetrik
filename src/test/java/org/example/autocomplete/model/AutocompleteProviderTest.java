@@ -10,7 +10,7 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.fail;
 
 public class AutocompleteProviderTest {
-    private static final String PASSAGE = "The third thing that I need to tell you, is that 'this thing does not " +
+    private static final String PASSAGE = "The third thing () that I need to tell you, is that 'this thing does not " +
             "think thoroughly.'";
     private AutocompleteProvider provider;
 
